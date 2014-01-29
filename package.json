@@ -1,0 +1,23 @@
+{
+  "name": "crtrdg",
+  "description": "a toolkit for making 2d games with javascript",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/crtrdg.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy test.js:bundle.js --live"
+  },
+  "dependencies": {
+    "crtrdg-scene": "~0.1.0",
+    "crtrdg-entity": "~0.2.0",
+    "crtrdg-mouse": "0.0.3",
+    "crtrdg-keyboard": "0.0.2",
+    "crtrdg-gameloop": "~0.2.0"
+  },
+  "devDependencies": {
+    "beefy": "~0.7.1",
+    "browserify": "~3.24.2"
+  }
+}
